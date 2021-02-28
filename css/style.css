@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f14668;
+}
+
+/* COMIENZO HEADER*/
+.header {
+  background-color: white;
+  height: 110px;
+}
+
+.logo {
+  position: relative;
+  float: left;
+  padding: 0px;
+  margin-left: 80px;
+}
+
+.menu {
+  position: relative;
+  float: left;
+  padding: 25px;
+  margin-left: 20px;
+}
+
+.menu a {
+  color: #28527a;
+  text-decoration: none;
+  font-size: 40px;
+  padding: 0px;
+}
+
+/* FIN HEADER*/
+
+/*COMIENZO BANNER*/
+.banner {
+  position: relative;
+  background-image: url(../img/banner.jpg);
+  /*margin-top: 0px 50%;*/
+  height: 550px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+}
+
+.banner h1 {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 80px;
+  padding: 150px 50px;
+}
+
+/*FIN BANNER*/
+
+/*COMIENZO BIOGRAFIA*/
+.biografia h2 {
+  text-align: center;
+  padding: 0px 0px 20px 0px;
+  font-size: 45px;
+}
+.biografia {
+  background-color: #f14668;
+  color: black;
+  padding: 60px 100px 70px 100px;
+  text-align: justify;
+  font-size: 30px;
+  
+}
+
+.imagentitulo {
+padding: 25px 0px 0px 0px;  
+text-align: center;
+}
+/*FIN BIOGRAFIA*/
+
+/*COMIENZO FOOTER*/
+footer {
+  background-color: whitesmoke;
+  color: black;
+  text-align: center;
+  padding: 50px 100px 70px 100px;
+  font-size: 25px;
+}
+/*FIN FOOTER*/
+
+
+
+/*CSS DE SEGUNDA PAGINA*/
+
+.bodyalbum{
+  text-align: center;
+  padding-top: 25px ;
+  font-size: 25px; 
+}
+.tabla{
+  
+  margin: 30px auto;
+  text-align: center;
+  width: 80%;
+  border-collapse: collapse;
+  /*border: 1px solid black;*/
+}
+
+.cl1{
+  
+  padding: 10px 10px;
+  display: inline-block;
+  box-sizing: border-box;
+  /*background-image: url(../img/album.jpg);*/
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  background-attachment: local;
+  /*border: 1px solid black;*/
+  width: 300px;
+  height: 300px;
+}
+
+.cl1 img{
+  width: 100%;
+  height: 100%;
+}
